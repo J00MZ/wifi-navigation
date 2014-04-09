@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/nodes" android:title="@+string/nodes">
+        <menu >
+            <item android:id="@+id/load_nodes_but" android:title="@+string/load_nodes"></item>
+    		<item android:id="@+id/stop_load" android:title="@string/stop_load_state"></item>
+    		<item android:id="@+id/show_nodes" android:title="@string/show_nodes"></item>
+    		<item android:id="@+id/hide_nodes" android:title="@string/hide_nodes"/>
+        </menu>      
+    </item>
+    <item android:id="@+id/show_position" android:title="@string/position">
+        <menu >
+            <item android:id="@+id/show_position_but" android:title="@string/show_position"/>
+        </menu>
+    </item>
+    <item android:id="@+id/db_item" android:title="@string/action_db"></item><item android:id="@id/action_settings" android:title="@string/action_settings"></item>
+    
+    
+</menu>

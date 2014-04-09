@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:text="@string/welcome_text"
+        android:textAppearance="?android:attr/textAppearanceLargePopupMenu"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="@dimen/twenty" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty" />
+
+    <Button
+        android:id="@+id/welcome_screen_button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:minWidth="@dimen/fourHundred"
+        android:onClick="onClick"
+        android:text="@string/choose_map_image" />
+
+    <Button
+        android:id="@+id/welcome_screenbutton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_gravity="center_horizontal"
+        android:minWidth="@dimen/fourHundred"
+        android:onClick="onClick"
+        android:text="@string/show_all_wifi_networks" />
+
+    <Button
+        android:id="@+id/welcome_screen_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:minWidth="@dimen/fourHundred"
+        android:onClick="onClick"
+        android:text="@string/set_wifi_aps" />
+
+    <Button
+        android:id="@+id/welcome_screen_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:layout_gravity="center_horizontal"
+        android:minWidth="@dimen/fourHundred"
+        android:onClick="onClick"
+        android:text="@string/position_on_map" />
+
+    <Button
+        android:id="@+id/welcome_screen_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:minWidth="@dimen/fourHundred"
+        android:onClick="onClick"
+        android:text="@string/make_route" />
+
+    <Button
+        android:id="@+id/welcome_screen_button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:minWidth="@dimen/fourHundred"
+        android:onClick="onClick"
+        android:text="@string/show_fingerprint_db" />
+
+    <Button
+        android:id="@+id/welcome_screen_button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:minWidth="@dimen/fourHundred"
+        android:onClick="onClick"
+        android:text="@string/about_app" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty" />
+
+    <ImageView
+        android:id="@+id/second_screen"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/this_is_an_image_doofus_"
+        android:src="@drawable/welcome2" />
+
+</LinearLayout>

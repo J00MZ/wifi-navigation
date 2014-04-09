@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="C:/ADT-Eclipse/sdk/platforms/android-17/android.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/ADT-Eclipse/sdk/docs/reference"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="nonaccessible" pattern="com/android/internal/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/lib/cloning-1.8.5.jar" sourcepath="libs/cloning-1.8.5/cloning-1.8.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/Joe Tavin/workspace/IND/libs/cloning-1.8.5/doc/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="IND/libs/cloning-1.8.5/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

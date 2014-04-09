@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Settings_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:contentDescription="@string/action_settings"
+    android:dividerPadding="@dimen/ten"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <Space
+        android:id="@+id/Space1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2" />
+
+    <Space
+        android:id="@+id/Space2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Space1" />
+
+    <ListView
+        android:id="@+id/routers_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/save_button"
+        android:layout_below="@+id/routers_monitered"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/background_light"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/current_map_title"
+        android:layout_below="@+id/current_map_title"
+        android:minWidth="@dimen/fourHundred"
+        android:text="@string/file_name"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="@dimen/twenty" />
+
+    <EditText
+        android:id="@+id/db_version_num"
+        android:layout_width="match_parent"
+        android:minWidth="@dimen/fourHundred"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/db_version"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <TextView
+        android:id="@+id/routers_monitered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/db_version_num"
+        android:layout_marginTop="55dp"
+        android:gravity="center_horizontal"
+        android:minWidth="@dimen/fourHundred"
+        android:text="@string/routered_monitered_text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <TextView
+        android:id="@+id/current_map_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:gravity="center_horizontal"
+        android:labelFor="@+id/textView2"
+        android:minWidth="@dimen/fourHundred"
+        android:text="@string/current_map"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="@dimen/twenty" />
+
+    <TextView
+        android:id="@+id/db_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="56dp"
+        android:gravity="center_horizontal"
+        android:labelFor="@+id/db_version_num"
+        android:minWidth="@dimen/fourHundred"
+        android:text="@string/db_version_text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:minWidth="@dimen/fourHundred"
+        android:text="@string/save" />
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item name="all_networks" type="id">all_networks</item>
+	<item name="map_view" type="id">map_view</item>
+</resources>
